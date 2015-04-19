@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3C91761AE3467F007DCC93 /* F2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3C91751AE3467F007DCC93 /* F2013.pdf */; };
+		0B6C23401AE3120D004CACE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */; };
+		0B6C23421AE3120D004CACE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C23411AE3120D004CACE5 /* ViewController.swift */; };
+		0B6C23471AE3120D004CACE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23461AE3120D004CACE5 /* Images.xcassets */; };
+		0B6C234A1AE3120D004CACE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23481AE3120D004CACE5 /* LaunchScreen.xib */; };
+		0B6C23561AE3120D004CACE5 /* Jillian_HandyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C23551AE3120D004CACE5 /* Jillian_HandyTests.swift */; };
+		0B6C23601AE31910004CACE5 /* custom_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C235F1AE31910004CACE5 /* custom_background.jpg */; };
+		0B6C23621AE319E3004CACE5 /* ffc_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23611AE319E3004CACE5 /* ffc_1.jpg */; };
+		0B6C23641AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23631AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png */; };
+		0B6C23661AE31F24004CACE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23651AE31F24004CACE5 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6C23501AE3120D004CACE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6C23321AE3120D004CACE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6C23391AE3120D004CACE5;
+			remoteInfo = "Jillian Handy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3C91751AE3467F007DCC93 /* F2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = F2013.pdf; path = ../../../../Desktop/Resumes/f2013/F2013.pdf; sourceTree = "<group>"; };
+		0B6C233A1AE3120D004CACE5 /* Jillian Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jillian Handy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6C233E1AE3120D004CACE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B6C23411AE3120D004CACE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B6C23461AE3120D004CACE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B6C23491AE3120D004CACE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B6C234F1AE3120D004CACE5 /* Jillian HandyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jillian HandyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6C23541AE3120D004CACE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B6C23551AE3120D004CACE5 /* Jillian_HandyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jillian_HandyTests.swift; sourceTree = "<group>"; };
+		0B6C235F1AE31910004CACE5 /* custom_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = custom_background.jpg; path = ../../../../custom_background.jpg; sourceTree = "<group>"; };
+		0B6C23611AE319E3004CACE5 /* ffc_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ffc_1.jpg; path = ../../../../Desktop/ffc_1.jpg; sourceTree = "<group>"; };
+		0B6C23631AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2015-04-18 at 7.02.48 PM.png"; path = "../../../../Desktop/Screen Shot 2015-04-18 at 7.02.48 PM.png"; sourceTree = "<group>"; };
+		0B6C23651AE31F24004CACE5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6C23371AE3120D004CACE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6C234C1AE3120D004CACE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6C23311AE3120D004CACE5 = {
+			isa = PBXGroup;
+			children = (
+				0B6C233C1AE3120D004CACE5 /* Jillian Handy */,
+				0B6C23521AE3120D004CACE5 /* Jillian HandyTests */,
+				0B6C233B1AE3120D004CACE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6C233B1AE3120D004CACE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C233A1AE3120D004CACE5 /* Jillian Handy.app */,
+				0B6C234F1AE3120D004CACE5 /* Jillian HandyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6C233C1AE3120D004CACE5 /* Jillian Handy */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */,
+				0B6C23411AE3120D004CACE5 /* ViewController.swift */,
+				0B6C23651AE31F24004CACE5 /* Main.storyboard */,
+				0B3C91751AE3467F007DCC93 /* F2013.pdf */,
+				0B6C23631AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png */,
+				0B6C23611AE319E3004CACE5 /* ffc_1.jpg */,
+				0B6C23461AE3120D004CACE5 /* Images.xcassets */,
+				0B6C23481AE3120D004CACE5 /* LaunchScreen.xib */,
+				0B6C233D1AE3120D004CACE5 /* Supporting Files */,
+			);
+			path = "Jillian Handy";
+			sourceTree = "<group>";
+		};
+		0B6C233D1AE3120D004CACE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C235F1AE31910004CACE5 /* custom_background.jpg */,
+				0B6C233E1AE3120D004CACE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6C23521AE3120D004CACE5 /* Jillian HandyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C23551AE3120D004CACE5 /* Jillian_HandyTests.swift */,
+				0B6C23531AE3120D004CACE5 /* Supporting Files */,
+			);
+			path = "Jillian HandyTests";
+			sourceTree = "<group>";
+		};
+		0B6C23531AE3120D004CACE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C23541AE3120D004CACE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6C23391AE3120D004CACE5 /* Jillian Handy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6C23591AE3120D004CACE5 /* Build configuration list for PBXNativeTarget "Jillian Handy" */;
+			buildPhases = (
+				0B6C23361AE3120D004CACE5 /* Sources */,
+				0B6C23371AE3120D004CACE5 /* Frameworks */,
+				0B6C23381AE3120D004CACE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jillian Handy";
+			productName = "Jillian Handy";
+			productReference = 0B6C233A1AE3120D004CACE5 /* Jillian Handy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B6C234E1AE3120D004CACE5 /* Jillian HandyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6C235C1AE3120D004CACE5 /* Build configuration list for PBXNativeTarget "Jillian HandyTests" */;
+			buildPhases = (
+				0B6C234B1AE3120D004CACE5 /* Sources */,
+				0B6C234C1AE3120D004CACE5 /* Frameworks */,
+				0B6C234D1AE3120D004CACE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6C23511AE3120D004CACE5 /* PBXTargetDependency */,
+			);
+			name = "Jillian HandyTests";
+			productName = "Jillian HandyTests";
+			productReference = 0B6C234F1AE3120D004CACE5 /* Jillian HandyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B6C23321AE3120D004CACE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					0B6C23391AE3120D004CACE5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0B6C234E1AE3120D004CACE5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0B6C23391AE3120D004CACE5;
+					};
+				};
+			};
+			buildConfigurationList = 0B6C23351AE3120D004CACE5 /* Build configuration list for PBXProject "Jillian Handy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B6C23311AE3120D004CACE5;
+			productRefGroup = 0B6C233B1AE3120D004CACE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6C23391AE3120D004CACE5 /* Jillian Handy */,
+				0B6C234E1AE3120D004CACE5 /* Jillian HandyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6C23381AE3120D004CACE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C23661AE31F24004CACE5 /* Main.storyboard in Resources */,
+				0B6C234A1AE3120D004CACE5 /* LaunchScreen.xib in Resources */,
+				0B6C23601AE31910004CACE5 /* custom_background.jpg in Resources */,
+				0B6C23641AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png in Resources */,
+				0B3C91761AE3467F007DCC93 /* F2013.pdf in Resources */,
+				0B6C23621AE319E3004CACE5 /* ffc_1.jpg in Resources */,
+				0B6C23471AE3120D004CACE5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6C234D1AE3120D004CACE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6C23361AE3120D004CACE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C23421AE3120D004CACE5 /* ViewController.swift in Sources */,
+				0B6C23401AE3120D004CACE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6C234B1AE3120D004CACE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C23561AE3120D004CACE5 /* Jillian_HandyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B6C23511AE3120D004CACE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B6C23391AE3120D004CACE5 /* Jillian Handy */;
+			targetProxy = 0B6C23501AE3120D004CACE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B6C23481AE3120D004CACE5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6C23491AE3120D004CACE5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B6C23571AE3120D004CACE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B6C23581AE3120D004CACE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B6C235A1AE3120D004CACE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Jillian Handy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B6C235B1AE3120D004CACE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Jillian Handy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B6C235D1AE3120D004CACE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jillian HandyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jillian Handy.app/Jillian Handy";
+			};
+			name = Debug;
+		};
+		0B6C235E1AE3120D004CACE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jillian HandyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jillian Handy.app/Jillian Handy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6C23351AE3120D004CACE5 /* Build configuration list for PBXProject "Jillian Handy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6C23571AE3120D004CACE5 /* Debug */,
+				0B6C23581AE3120D004CACE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6C23591AE3120D004CACE5 /* Build configuration list for PBXNativeTarget "Jillian Handy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6C235A1AE3120D004CACE5 /* Debug */,
+				0B6C235B1AE3120D004CACE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6C235C1AE3120D004CACE5 /* Build configuration list for PBXNativeTarget "Jillian HandyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6C235D1AE3120D004CACE5 /* Debug */,
+				0B6C235E1AE3120D004CACE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B6C23321AE3120D004CACE5 /* Project object */;
+}

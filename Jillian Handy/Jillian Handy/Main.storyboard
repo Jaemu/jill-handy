@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XsW-cM-Ve1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Projects-->
+        <scene sceneID="VBN-e3-vrs">
+            <objects>
+                <viewController id="mnU-yF-XWv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QUj-p4-YIt"/>
+                        <viewControllerLayoutGuide type="bottom" id="vI5-6x-6bU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iEF-uz-Hc1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="mWy-Ll-jbk">
+                                <rect key="frame" x="16" y="28" width="162" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="0.411531853" green="0.71123471469999999" blue="0.68604743109999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Projects" id="LvA-s4-PAp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vT0-8A-OJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-699" y="738"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="U5r-dw-9UG">
+            <objects>
+                <viewController id="PyZ-GC-NLs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MnH-fP-3JN"/>
+                        <viewControllerLayoutGuide type="bottom" id="fDH-w9-QcR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4v4-C3-4MN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Ptu-Pv-05k">
+                                <rect key="frame" x="-29" y="28" width="261" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="0.411531853" green="0.71123471469999999" blue="0.68604743109999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="Z3q-vj-YRX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KSe-tz-oON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="720"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vba-qj-d8A">
+            <objects>
+                <viewController id="LH8-RL-orP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hj4-eF-VAK"/>
+                        <viewControllerLayoutGuide type="bottom" id="KPb-Ku-i3t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sqB-J4-rVl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NeN-9C-C6T">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5vA-rm-auP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="795" y="720"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="g5O-zC-QUH">
+            <objects>
+                <viewController title="Home" id="zeW-M6-cts" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JFx-La-o2J"/>
+                        <viewControllerLayoutGuide type="bottom" id="NXu-M5-4eL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y7M-5v-dqv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jillian Handy" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="imN-Fh-d54">
+                                <rect key="frame" x="0.0" y="28" width="261" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="0.411531853" green="0.71123471469999999" blue="0.68604743109999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Software Engineer, Nickelodeon" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A56-AU-nZb">
+                                <rect key="frame" x="16" y="79" width="263" height="30"/>
+                                <color key="textColor" red="0.14829002829999999" green="0.25628396739999998" blue="0.24720806479999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2015-04-18 at 7.02.48 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="KtP-wo-Y5d">
+                                <rect key="frame" x="16" y="117" width="200" height="248"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="Laq-cV-c5Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BpT-wV-JWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="-26"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="zEd-oL-9kK">
+            <objects>
+                <tabBarController title="Main" automaticallyAdjustsScrollViewInsets="NO" id="XsW-cM-Ve1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="R8B-tZ-CPi">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zeW-M6-cts" kind="relationship" relationship="viewControllers" id="glt-VH-HFr"/>
+                        <segue destination="PyZ-GC-NLs" kind="relationship" relationship="viewControllers" id="F5q-zx-Bri"/>
+                        <segue destination="mnU-yF-XWv" kind="relationship" relationship="viewControllers" id="20i-al-3YV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oIb-Vz-0dS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-699" y="-26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2015-04-18 at 7.02.48 PM.png" width="328" height="372"/>
+    </resources>
+    <color key="tintColor" red="0.102185445" green="0.50018045570000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
