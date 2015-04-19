@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0B3C91761AE3467F007DCC93 /* F2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3C91751AE3467F007DCC93 /* F2013.pdf */; };
 		0B3C91781AE397D9007DCC93 /* ResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C91771AE397D9007DCC93 /* ResumeViewController.swift */; };
+		0B3C917A1AE3A5D0007DCC93 /* Screen Shot 2015-04-19 at 4.58.24 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3C91791AE3A5D0007DCC93 /* Screen Shot 2015-04-19 at 4.58.24 AM.png */; };
+		0B3C917C1AE3A640007DCC93 /* Screen Shot 2015-04-19 at 5.00.27 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3C917B1AE3A640007DCC93 /* Screen Shot 2015-04-19 at 5.00.27 AM.png */; };
+		0B3C917E1AE3AC1A007DCC93 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C917D1AE3AC1A007DCC93 /* ProjectViewController.swift */; };
+		0B3C91801AE40BD7007DCC93 /* ProjectItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C917F1AE40BD7007DCC93 /* ProjectItemController.swift */; };
 		0B6C23401AE3120D004CACE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */; };
 		0B6C23421AE3120D004CACE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C23411AE3120D004CACE5 /* ViewController.swift */; };
 		0B6C23471AE3120D004CACE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23461AE3120D004CACE5 /* Images.xcassets */; };
@@ -33,6 +37,10 @@
 /* Begin PBXFileReference section */
 		0B3C91751AE3467F007DCC93 /* F2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = F2013.pdf; path = ../../../../Desktop/Resumes/f2013/F2013.pdf; sourceTree = "<group>"; };
 		0B3C91771AE397D9007DCC93 /* ResumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeViewController.swift; sourceTree = "<group>"; };
+		0B3C91791AE3A5D0007DCC93 /* Screen Shot 2015-04-19 at 4.58.24 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2015-04-19 at 4.58.24 AM.png"; path = "../../../../Desktop/Screen Shot 2015-04-19 at 4.58.24 AM.png"; sourceTree = "<group>"; };
+		0B3C917B1AE3A640007DCC93 /* Screen Shot 2015-04-19 at 5.00.27 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2015-04-19 at 5.00.27 AM.png"; path = "../../../../Desktop/Screen Shot 2015-04-19 at 5.00.27 AM.png"; sourceTree = "<group>"; };
+		0B3C917D1AE3AC1A007DCC93 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		0B3C917F1AE40BD7007DCC93 /* ProjectItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectItemController.swift; sourceTree = "<group>"; };
 		0B6C233A1AE3120D004CACE5 /* Jillian Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jillian Handy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6C233E1AE3120D004CACE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,10 +95,14 @@
 		0B6C233C1AE3120D004CACE5 /* Jillian Handy */ = {
 			isa = PBXGroup;
 			children = (
+				0B3C917D1AE3AC1A007DCC93 /* ProjectViewController.swift */,
+				0B3C917F1AE40BD7007DCC93 /* ProjectItemController.swift */,
 				0B3C91771AE397D9007DCC93 /* ResumeViewController.swift */,
 				0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */,
 				0B6C23411AE3120D004CACE5 /* ViewController.swift */,
 				0B6C23651AE31F24004CACE5 /* Main.storyboard */,
+				0B3C91791AE3A5D0007DCC93 /* Screen Shot 2015-04-19 at 4.58.24 AM.png */,
+				0B3C917B1AE3A640007DCC93 /* Screen Shot 2015-04-19 at 5.00.27 AM.png */,
 				0B3C91751AE3467F007DCC93 /* F2013.pdf */,
 				0B6C23631AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png */,
 				0B6C23611AE319E3004CACE5 /* ffc_1.jpg */,
@@ -213,6 +225,8 @@
 				0B3C91761AE3467F007DCC93 /* F2013.pdf in Resources */,
 				0B6C23621AE319E3004CACE5 /* ffc_1.jpg in Resources */,
 				0B6C23471AE3120D004CACE5 /* Images.xcassets in Resources */,
+				0B3C917C1AE3A640007DCC93 /* Screen Shot 2015-04-19 at 5.00.27 AM.png in Resources */,
+				0B3C917A1AE3A5D0007DCC93 /* Screen Shot 2015-04-19 at 4.58.24 AM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3C917E1AE3AC1A007DCC93 /* ProjectViewController.swift in Sources */,
 				0B3C91781AE397D9007DCC93 /* ResumeViewController.swift in Sources */,
+				0B3C91801AE40BD7007DCC93 /* ProjectItemController.swift in Sources */,
 				0B6C23421AE3120D004CACE5 /* ViewController.swift in Sources */,
 				0B6C23401AE3120D004CACE5 /* AppDelegate.swift in Sources */,
 			);

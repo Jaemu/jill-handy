@@ -2,34 +2,74 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XsW-cM-Ve1">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Projects-->
-        <scene sceneID="VBN-e3-vrs">
+        <scene sceneID="DK2-do-vGu">
             <objects>
-                <viewController id="mnU-yF-XWv" sceneMemberID="viewController">
+                <viewController title="Projects" id="bcN-AE-R7c" customClass="ProjectViewController" customModule="Jillian_Handy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QUj-p4-YIt"/>
-                        <viewControllerLayoutGuide type="bottom" id="vI5-6x-6bU"/>
+                        <viewControllerLayoutGuide type="top" id="LlF-U7-lin"/>
+                        <viewControllerLayoutGuide type="bottom" id="kxH-rs-dt4"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iEF-uz-Hc1">
+                    <view key="view" contentMode="scaleToFill" id="Hw4-9O-da3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="mWy-Ll-jbk">
-                                <rect key="frame" x="16" y="28" width="162" height="48"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Projects" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="D6f-f0-18C">
+                                <rect key="frame" x="16" y="20" width="151" height="48"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" red="0.411531853" green="0.71123471469999999" blue="0.68604743109999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="glR-0k-RnV">
+                                <constraints>
+                                    <constraint firstAttribute="height" id="6nH-8D-crs"/>
+                                    <constraint firstAttribute="width" id="cyG-Uy-EEm"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hVt-0o-gML">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="acv-TH-XwX">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" pagingEnabled="YES" showsVerticalScrollIndicator="NO" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="eht-7z-thX">
+                                <rect key="frame" x="16" y="76" width="568" height="467"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="eht-7z-thX" firstAttribute="top" secondItem="D6f-f0-18C" secondAttribute="bottom" constant="8" symbolic="YES" id="23I-9e-VAm"/>
+                            <constraint firstItem="glR-0k-RnV" firstAttribute="top" secondItem="Hw4-9O-da3" secondAttribute="top" id="WK7-5R-r2I"/>
+                            <constraint firstItem="glR-0k-RnV" firstAttribute="leading" secondItem="Hw4-9O-da3" secondAttribute="leading" id="f8X-9V-FZt"/>
+                            <constraint firstItem="eht-7z-thX" firstAttribute="trailing" secondItem="Hw4-9O-da3" secondAttribute="trailingMargin" id="huh-VS-zKA"/>
+                            <constraint firstItem="eht-7z-thX" firstAttribute="leading" secondItem="D6f-f0-18C" secondAttribute="leading" id="kav-9t-1tM"/>
+                            <constraint firstItem="eht-7z-thX" firstAttribute="top" secondItem="Hw4-9O-da3" secondAttribute="top" constant="76" id="x8C-9Q-6pa"/>
+                            <constraint firstItem="eht-7z-thX" firstAttribute="leading" secondItem="Hw4-9O-da3" secondAttribute="leadingMargin" id="y0G-wT-4rx"/>
+                            <constraint firstItem="kxH-rs-dt4" firstAttribute="top" secondItem="eht-7z-thX" secondAttribute="bottom" constant="8" symbolic="YES" id="yI1-ek-ef3"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Projects" id="LvA-s4-PAp"/>
+                    <tabBarItem key="tabBarItem" title="Projects" id="ECY-d3-37w"/>
+                    <connections>
+                        <outlet property="projectScrollView" destination="eht-7z-thX" id="NIS-pQ-Cin"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vT0-8A-OJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzq-z3-laO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-699" y="738"/>
+            <point key="canvasLocation" x="-1153" y="717"/>
         </scene>
         <!--About-->
         <scene sceneID="U5r-dw-9UG">
@@ -59,6 +99,12 @@
                                     <segue destination="LH8-RL-orP" kind="show" id="FC1-qP-G8W"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNi-kI-wCV">
+                                <rect key="frame" x="16" y="193" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -68,7 +114,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSe-tz-oON" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="AGN-9h-unU"/>
             </objects>
-            <point key="canvasLocation" x="-662" y="1464"/>
+            <point key="canvasLocation" x="187" y="1495"/>
         </scene>
         <!--Resume-->
         <scene sceneID="Vba-qj-d8A">
@@ -111,7 +157,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5vA-rm-auP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="JZz-tl-e15"/>
             </objects>
-            <point key="canvasLocation" x="49" y="1428"/>
+            <point key="canvasLocation" x="904" y="1495"/>
         </scene>
         <!--Home-->
         <scene sceneID="g5O-zC-QUH">
@@ -161,8 +207,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="zeW-M6-cts" kind="relationship" relationship="viewControllers" id="glt-VH-HFr"/>
-                        <segue destination="mnU-yF-XWv" kind="relationship" relationship="viewControllers" id="20i-al-3YV"/>
                         <segue destination="CBI-fj-3g0" kind="relationship" relationship="viewControllers" id="HEf-mo-upS"/>
+                        <segue destination="bcN-AE-R7c" kind="relationship" relationship="viewControllers" id="kao-nB-Ghh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oIb-Vz-0dS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -186,11 +232,69 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P7-S8-Yk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="49" y="717"/>
+            <point key="canvasLocation" x="187" y="717"/>
+        </scene>
+        <!--Project Item Controller-->
+        <scene sceneID="Vz6-nm-Cvh">
+            <objects>
+                <viewController storyboardIdentifier="meetupView" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZBR-YU-qi9" customClass="ProjectItemController" customModule="Jillian_Handy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wGe-qc-tc9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tkk-lk-2lC"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="meetupProject" id="Tim-Ni-Quj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MeetupQuest" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="n7v-9y-trj">
+                                <rect key="frame" x="16" y="20" width="141" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.411531853" green="0.71123471469999999" blue="0.68604743109999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2015-04-19 at 5.00.27 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="ai0-SC-uU1">
+                                <rect key="frame" x="16" y="63" width="348" height="210"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ik4-yy-7bJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-519" y="717"/>
+        </scene>
+        <!--Project Item Controller-->
+        <scene sceneID="1r0-my-bHQ">
+            <objects>
+                <viewController storyboardIdentifier="nickView" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WbE-lg-2lK" customClass="ProjectItemController" customModule="Jillian_Handy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wfd-kj-Kwe"/>
+                        <viewControllerLayoutGuide type="bottom" id="ILb-GB-gbh"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="nickProject" id="cuh-ER-jek">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nick Web" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="1dW-Q9-YUV">
+                                <rect key="frame" x="16" y="20" width="141" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.411531853" green="0.71123471469999999" blue="0.68604743109999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7TW-Y3-KCc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-519" y="1391"/>
         </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2015-04-18 at 7.02.48 PM.png" width="328" height="372"/>
+        <image name="Screen Shot 2015-04-19 at 5.00.27 AM.png" width="502" height="259"/>
     </resources>
     <color key="tintColor" red="0.102185445" green="0.50018045570000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
