@@ -1,24 +1,25 @@
 //
-//  ProjectItemController.swift
+//  WeatherViewController.swift
 //  Jillian Handy
 //
-//  Created by Munson, Jillian on 4/19/15.
+//  Created by Munson, Jillian on 4/21/15.
 //
 //
 
 import Foundation
 import UIKit
 
-class ProjectItemController: UIViewController {
-    
-    @IBOutlet weak var projectView: UIView!
+class WeatherViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 }

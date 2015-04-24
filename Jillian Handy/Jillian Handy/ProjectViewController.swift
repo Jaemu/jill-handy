@@ -13,13 +13,16 @@ class ProjectViewController: UIViewController {
     
     var projectPageViews: [String] = [
         "nickView",
-        "meetupView"
+        "meetupView",
+        "cancerView",
+        "googleView",
+        "apacheView"
     ]
     var frame: CGRect = CGRectMake(0,0,0,0)
-    @IBOutlet weak var projectScrollView: UIScrollView!
-    
     
     var sboard = UIStoryboard(name: "Main", bundle: nil)
+    
+    @IBOutlet weak var projectScrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +41,9 @@ class ProjectViewController: UIViewController {
             projectScrollView.pagingEnabled = true
             if let page:UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier(projectPageViews[index]) as? UIViewController {
                 
-                var delta = 0.2 * CGFloat(index)
+                if page.view.frame.size.height > frame.size.height {
+                    frame.size = page.view.frame.size
+                }
                 page.view.frame = self.frame
                 self.projectScrollView.addSubview(page.view)
             }
