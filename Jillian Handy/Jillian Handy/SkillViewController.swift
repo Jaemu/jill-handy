@@ -48,7 +48,7 @@ class SkillViewController: UIViewController {
         createSkillScroller()
     }
     private func createSkillScroller() {
-        let jsView = sboard.instantiateViewControllerWithIdentifier("jsView") as UIViewController;
+        let jsView = sboard.instantiateViewControllerWithIdentifier("jsView") as! UIViewController;
         
         for index in 0..<skillPageViews.count{
             frame.origin.x = self.skillScrollView.frame.size.width * CGFloat(index)

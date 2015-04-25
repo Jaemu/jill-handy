@@ -16,7 +16,6 @@
 		0B6C23471AE3120D004CACE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23461AE3120D004CACE5 /* Images.xcassets */; };
 		0B6C234A1AE3120D004CACE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23481AE3120D004CACE5 /* LaunchScreen.xib */; };
 		0B6C23561AE3120D004CACE5 /* Jillian_HandyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C23551AE3120D004CACE5 /* Jillian_HandyTests.swift */; };
-		0B6C23601AE31910004CACE5 /* custom_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C235F1AE31910004CACE5 /* custom_background.jpg */; };
 		0B6C23661AE31F24004CACE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23651AE31F24004CACE5 /* Main.storyboard */; };
 		0B9F60801AEC1B3E006E6BFD /* apache.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F60671AEC1B3E006E6BFD /* apache.png */; };
 		0B9F60811AEC1B3E006E6BFD /* backbone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F60681AEC1B3E006E6BFD /* backbone.png */; };
@@ -72,7 +71,6 @@
 		0B6C234F1AE3120D004CACE5 /* Jillian HandyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jillian HandyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6C23541AE3120D004CACE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B6C23551AE3120D004CACE5 /* Jillian_HandyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jillian_HandyTests.swift; sourceTree = "<group>"; };
-		0B6C235F1AE31910004CACE5 /* custom_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = custom_background.jpg; path = ../../../custom_background.jpg; sourceTree = SOURCE_ROOT; };
 		0B6C23651AE31F24004CACE5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0B9F60671AEC1B3E006E6BFD /* apache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apache.png; sourceTree = "<group>"; };
 		0B9F60681AEC1B3E006E6BFD /* backbone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbone.png; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 		0B6C233D1AE3120D004CACE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B6C235F1AE31910004CACE5 /* custom_background.jpg */,
 				0B6C233E1AE3120D004CACE5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -318,7 +315,6 @@
 				0B9F60861AEC1B3E006E6BFD /* gs.jpg in Resources */,
 				0B9F608C1AEC1B3E006E6BFD /* partly-cloudy.jpg in Resources */,
 				0B9F608F1AEC1B3E006E6BFD /* Screen Shot 2015-04-18 at 7.02.48 PM.png in Resources */,
-				0B6C23601AE31910004CACE5 /* custom_background.jpg in Resources */,
 				0B9F60871AEC1B3E006E6BFD /* java.jpg in Resources */,
 				0B9F60921AEC1B3E006E6BFD /* Screen Shot 2015-04-19 at 4.58.24 AM.png in Resources */,
 				0B9F60841AEC1B3E006E6BFD /* clear-night.png in Resources */,

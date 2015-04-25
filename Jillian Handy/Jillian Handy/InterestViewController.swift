@@ -40,7 +40,7 @@ class InterestViewController: UIViewController {
         createInterestScroller()
     }
     private func createInterestScroller() {
-        let pyView = sboard.instantiateViewControllerWithIdentifier("pyView") as UIViewController;
+        let pyView = sboard.instantiateViewControllerWithIdentifier("pyView") as! UIViewController;
         
         for index in 0..<interestPageViews.count{
             frame.origin.x = self.interestScrollView.frame.size.width * CGFloat(index)

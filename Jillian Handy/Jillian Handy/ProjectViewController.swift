@@ -35,8 +35,8 @@ class ProjectViewController: UIViewController {
         createProjectScroller()
     }
     private func createProjectScroller() {
-        let nickView = sboard.instantiateViewControllerWithIdentifier("nickView") as UIViewController;
-        let meetupView = sboard.instantiateViewControllerWithIdentifier("meetupView") as UIViewController;
+        let nickView = sboard.instantiateViewControllerWithIdentifier("nickView") as! UIViewController;
+        let meetupView = sboard.instantiateViewControllerWithIdentifier("meetupView") as! UIViewController;
         
         for index in 0..<projectPageViews.count{
             frame.origin.x = self.projectScrollView.frame.size.width * CGFloat(index)

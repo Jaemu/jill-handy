@@ -31,7 +31,7 @@ class AppThemeData{
     }
     func changeLabelsInViewToTheme(view: UIView) -> [UILabel] {
         var results = [UILabel]()
-        for subview in view.subviews as [UIView] {
+        for subview in view.subviews as! [UIView] {
             if let labelView = subview as? UILabel {
                 labelView.textColor = self.textColor
                 results += [labelView]

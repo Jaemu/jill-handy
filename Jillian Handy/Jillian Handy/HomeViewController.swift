@@ -84,13 +84,13 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         // Request complete, self.data should now hold the resulting info
         // Convert the retrieved data in to an object through JSON deserialization
         var err: NSError
-        var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(weatherData, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+        var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(weatherData, options: NSJSONReadingOptions.MutableContainers, error: nil) as! NSDictionary
 
-        var results: NSDictionary = jsonResult["currently"] as NSDictionary
+        var results: NSDictionary = jsonResult["currently"] as! NSDictionary
         if jsonResult.count>0 && results.count>0 {
-            weatherIconLabel.text = results["summary"] as String
-            var key = results["icon"] as String
-            if let theme = AppThemes[key] as AppThemeData!{
+            weatherIconLabel.text = results["summary"] as! String
+            var key = results["icon"] as! String
+            if let theme = AppThemes[key] as! AppThemeData!{
                 appTheme = theme
             }
             appTheme.changeLabelsInViewToTheme(self.homeView)
