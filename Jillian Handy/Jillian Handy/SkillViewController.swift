@@ -29,11 +29,14 @@ class SkillViewController: UIViewController {
     var skillPageViews: [String] = [
         "jsView",
         "javaView",
-        "pythonView"
+        "pythonView",
+        "swiftView"
     ]
     var frame: CGRect = CGRectMake(0,0,0,0)
     @IBOutlet weak var skillScrollView: UIScrollView!
+    @IBOutlet weak var bgImage: UIImageView!
     
+    @IBOutlet weak var skillsLabel: UILabel!
     
     var sboard = UIStoryboard(name: "Main", bundle: nil)
     
@@ -58,6 +61,8 @@ class SkillViewController: UIViewController {
             }
         }
         self.skillScrollView.contentSize = CGSizeMake(jsView.view.frame.size.width * CGFloat(skillPageViews.count), self.skillScrollView.frame.size.height)
+        self.bgImage.image = UIImage(named: appTheme.imagePath)
+        self.skillsLabel.textColor = appTheme.textColor
     }
     
     override func didReceiveMemoryWarning() {

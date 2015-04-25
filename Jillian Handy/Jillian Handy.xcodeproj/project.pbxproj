@@ -33,8 +33,15 @@
 		0B6C23621AE319E3004CACE5 /* ffc_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23611AE319E3004CACE5 /* ffc_1.jpg */; };
 		0B6C23641AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23631AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png */; };
 		0B6C23661AE31F24004CACE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C23651AE31F24004CACE5 /* Main.storyboard */; };
-		0BA3507B1AE7243E0034B5C2 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3507A1AE7243E0034B5C2 /* WeatherViewController.swift */; };
 		0BA3507D1AE725550034B5C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3507C1AE725550034B5C2 /* HomeViewController.swift */; };
+		0BF0ECD31AEAD40800423663 /* partly-cloudy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECD21AEAD40800423663 /* partly-cloudy.jpg */; };
+		0BF0ECD71AEB04A000423663 /* AppThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0ECD61AEB04A000423663 /* AppThemeData.swift */; };
+		0BF0ECD91AEB20E200423663 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECD81AEB20E200423663 /* rain.jpg */; };
+		0BF0ECDB1AEB227C00423663 /* partly-cloudy-day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECDA1AEB227C00423663 /* partly-cloudy-day.jpg */; };
+		0BF0ECDD1AEB23FA00423663 /* clear-night.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECDC1AEB23FA00423663 /* clear-night.png */; };
+		0BF0ECDF1AEB272500423663 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECDE1AEB272500423663 /* snow.jpg */; };
+		0BF0ECE11AEBB5E800423663 /* clear-day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECE01AEBB5E800423663 /* clear-day.jpg */; };
+		0BF0ECE31AEBB85A00423663 /* sleet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0ECE21AEBB85A00423663 /* sleet.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +85,15 @@
 		0B6C23611AE319E3004CACE5 /* ffc_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ffc_1.jpg; path = ../../../../Desktop/ffc_1.jpg; sourceTree = "<group>"; };
 		0B6C23631AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2015-04-18 at 7.02.48 PM.png"; path = "../../../../Desktop/Screen Shot 2015-04-18 at 7.02.48 PM.png"; sourceTree = "<group>"; };
 		0B6C23651AE31F24004CACE5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		0BA3507A1AE7243E0034B5C2 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		0BA3507C1AE725550034B5C2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0BF0ECD21AEAD40800423663 /* partly-cloudy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "partly-cloudy.jpg"; path = "../../../../Desktop/partly-cloudy.jpg"; sourceTree = "<group>"; };
+		0BF0ECD61AEB04A000423663 /* AppThemeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppThemeData.swift; sourceTree = "<group>"; };
+		0BF0ECD81AEB20E200423663 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rain.jpg; path = ../../../../Desktop/rain.jpg; sourceTree = "<group>"; };
+		0BF0ECDA1AEB227C00423663 /* partly-cloudy-day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "partly-cloudy-day.jpg"; path = "../../../../Desktop/partly-cloudy-day.jpg"; sourceTree = "<group>"; };
+		0BF0ECDC1AEB23FA00423663 /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clear-night.png"; path = "../../../../Desktop/clear-night.png"; sourceTree = "<group>"; };
+		0BF0ECDE1AEB272500423663 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snow.jpg; path = ../../../../Desktop/snow.jpg; sourceTree = "<group>"; };
+		0BF0ECE01AEBB5E800423663 /* clear-day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "clear-day.jpg"; path = "../../../../Desktop/clear-day.jpg"; sourceTree = "<group>"; };
+		0BF0ECE21AEBB85A00423663 /* sleet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sleet.jpg; path = ../../../../Desktop/sleet.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +135,12 @@
 		0B6C233C1AE3120D004CACE5 /* Jillian Handy */ = {
 			isa = PBXGroup;
 			children = (
+				0BF0ECD61AEB04A000423663 /* AppThemeData.swift */,
+				0BF0ECE21AEBB85A00423663 /* sleet.jpg */,
+				0BF0ECE01AEBB5E800423663 /* clear-day.jpg */,
+				0BF0ECDE1AEB272500423663 /* snow.jpg */,
+				0BF0ECDC1AEB23FA00423663 /* clear-night.png */,
 				0BA3507C1AE725550034B5C2 /* HomeViewController.swift */,
-				0BA3507A1AE7243E0034B5C2 /* WeatherViewController.swift */,
 				0B544F661AE48326004EB084 /* SkillViewController.swift */,
 				0B3C91911AE46A27007DCC93 /* InterestViewController.swift */,
 				0B3C917D1AE3AC1A007DCC93 /* ProjectViewController.swift */,
@@ -130,6 +148,9 @@
 				0B6C233F1AE3120D004CACE5 /* AppDelegate.swift */,
 				0B6C23411AE3120D004CACE5 /* ViewController.swift */,
 				0B6C23651AE31F24004CACE5 /* Main.storyboard */,
+				0BF0ECDA1AEB227C00423663 /* partly-cloudy-day.jpg */,
+				0BF0ECD81AEB20E200423663 /* rain.jpg */,
+				0BF0ECD21AEAD40800423663 /* partly-cloudy.jpg */,
 				0B3B687A1AE47F2900050761 /* corgis.jpg */,
 				0B3C91971AE473E5007DCC93 /* gs.jpg */,
 				0B3C91951AE46C3D007DCC93 /* pyladies.jpg */,
@@ -262,19 +283,26 @@
 				0B3C91861AE43684007DCC93 /* java.jpg in Resources */,
 				0B3C91961AE46C3D007DCC93 /* pyladies.jpg in Resources */,
 				0B6C234A1AE3120D004CACE5 /* LaunchScreen.xib in Resources */,
+				0BF0ECE31AEBB85A00423663 /* sleet.jpg in Resources */,
 				0B3C91901AE466BC007DCC93 /* apache.png in Resources */,
+				0BF0ECE11AEBB5E800423663 /* clear-day.jpg in Resources */,
 				0B3B687B1AE47F2900050761 /* corgis.jpg in Resources */,
 				0B3C91841AE43104007DCC93 /* Screen Shot 2015-04-19 at 2.52.31 PM.png in Resources */,
+				0BF0ECDB1AEB227C00423663 /* partly-cloudy-day.jpg in Resources */,
 				0B3C91821AE42458007DCC93 /* chr16.png in Resources */,
+				0BF0ECD31AEAD40800423663 /* partly-cloudy.jpg in Resources */,
 				0B6C23601AE31910004CACE5 /* custom_background.jpg in Resources */,
 				0B3C91981AE473E5007DCC93 /* gs.jpg in Resources */,
 				0B6C23641AE31A2C004CACE5 /* Screen Shot 2015-04-18 at 7.02.48 PM.png in Resources */,
 				0B3C91761AE3467F007DCC93 /* F2013.pdf in Resources */,
+				0BF0ECDD1AEB23FA00423663 /* clear-night.png in Resources */,
 				0B6C23621AE319E3004CACE5 /* ffc_1.jpg in Resources */,
 				0B6C23471AE3120D004CACE5 /* Images.xcassets in Resources */,
+				0BF0ECD91AEB20E200423663 /* rain.jpg in Resources */,
 				0B3C917C1AE3A640007DCC93 /* Screen Shot 2015-04-19 at 5.00.27 AM.png in Resources */,
 				0B3C91941AE46B72007DCC93 /* nypy.jpeg in Resources */,
 				0B3C917A1AE3A5D0007DCC93 /* Screen Shot 2015-04-19 at 4.58.24 AM.png in Resources */,
+				0BF0ECDF1AEB272500423663 /* snow.jpg in Resources */,
 				0B3C918C1AE457B1007DCC93 /* stylus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +326,7 @@
 				0B3C91781AE397D9007DCC93 /* ResumeViewController.swift in Sources */,
 				0BA3507D1AE725550034B5C2 /* HomeViewController.swift in Sources */,
 				0B6C23421AE3120D004CACE5 /* ViewController.swift in Sources */,
-				0BA3507B1AE7243E0034B5C2 /* WeatherViewController.swift in Sources */,
+				0BF0ECD71AEB04A000423663 /* AppThemeData.swift in Sources */,
 				0B544F671AE48326004EB084 /* SkillViewController.swift in Sources */,
 				0B6C23401AE3120D004CACE5 /* AppDelegate.swift in Sources */,
 			);

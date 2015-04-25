@@ -16,13 +16,16 @@ class ProjectViewController: UIViewController {
         "meetupView",
         "cancerView",
         "googleView",
-        "apacheView"
+        "apacheView",
+        "appView"
     ]
     var frame: CGRect = CGRectMake(0,0,0,0)
     
     var sboard = UIStoryboard(name: "Main", bundle: nil)
     
     @IBOutlet weak var projectScrollView: UIScrollView!
+    @IBOutlet weak var bgImage: UIImageView!
+    @IBOutlet weak var projectsLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +52,8 @@ class ProjectViewController: UIViewController {
             }
         }
         self.projectScrollView.contentSize = CGSizeMake(nickView.view.frame.size.width * CGFloat(projectPageViews.count), self.projectScrollView.frame.size.height)
+        self.bgImage.image = UIImage(named: appTheme.imagePath)
+        self.projectsLabel.textColor = appTheme.textColor
     }
     
     override func didReceiveMemoryWarning() {

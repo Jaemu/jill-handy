@@ -21,11 +21,14 @@ class InterestViewController: UIViewController {
     var interestPageViews: [String] = [
         "pyView",
         "wicsView",
-        "corgiView"
+        "corgiView",
+        "cookView"
     ]
     var frame: CGRect = CGRectMake(0,0,0,0)
     @IBOutlet weak var interestScrollView: UIScrollView!
+    @IBOutlet weak var bgImage: UIImageView!
     
+    @IBOutlet weak var interestLabel: UILabel!
     
     var sboard = UIStoryboard(name: "Main", bundle: nil)
     
@@ -50,6 +53,8 @@ class InterestViewController: UIViewController {
             }
         }
         self.interestScrollView.contentSize = CGSizeMake(pyView.view.frame.size.width * CGFloat(interestPageViews.count), self.interestScrollView.frame.size.height)
+        self.bgImage.image = UIImage(named: appTheme.imagePath)
+        self.interestLabel.textColor = appTheme.textColor
     }
     
     override func didReceiveMemoryWarning() {

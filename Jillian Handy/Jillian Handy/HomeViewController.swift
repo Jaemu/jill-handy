@@ -10,11 +10,6 @@ import Foundation
 import UIKit
 import CoreLocation
 
-struct AppTheme{
-    var textColor: UIColor
-    var backgroundColor: UIColor
-}
-
 struct ApiData{
     var apiUrlPath: String
     var loc: CLLocationCoordinate2D
@@ -24,18 +19,23 @@ struct ApiData{
     }
 }
 
-
 class HomeViewController: UIViewController, CLLocationManagerDelegate {
     
     required init(coder aDecoder: NSCoder!) {
         self.weatherData = NSMutableData()
         self.locManager = CLLocationManager()
         self.apiData = ApiData(url: "https://api.forecast.io/forecast/7bdce437a50fe9c10285065387a96c3c/", loc:CLLocationCoordinate2DMake(40.8561, -73.1165))
-        
+        appTheme = AppThemeData()
         super.init(coder: aDecoder)
     }
     
     @IBOutlet weak var weatherIconLabel: UILabel!
+    
+    @IBOutlet weak var bgImage: UIImageView!
+    
+    
+    @IBOutlet var homeView: UIView!
+    
     var weather: NSURLRequest?
     var apiConnection: NSURLConnection?
     var weatherData: NSMutableData
@@ -43,7 +43,6 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
     var locManager: CLLocationManager
     var location: CLLocation?
     var apiData: ApiData
-    var appTheme: AppTheme?
     var urlString: String!
     var url: NSURL!
 
@@ -85,9 +84,15 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(weatherData, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
 
         var results: NSDictionary = jsonResult["currently"] as NSDictionary
-        println(self.weatherData)
         if jsonResult.count>0 && results.count>0 {
-            weatherIconLabel.text = results["icon"] as String
+            weatherIconLabel.text = results["summary"] as String
+            var key = results["icon"] as String
+            if let theme = AppThemes[key] as AppThemeData!{
+                appTheme = theme
+            }
+            appTheme.changeLabelsInViewToTheme(self.homeView)
+            homeView.backgroundColor = appTheme.backgroundColor;
+            bgImage.image = UIImage(named: appTheme.imagePath)
         }
     }
 }
